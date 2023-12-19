@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tienda_camisetas SYSTEM "practica6.dtd">
+<tienda_camisetas>
+	<nombre>Pamplinas sponsor t-shirts</nombre>
+	<direccion>C/inventada nº</direccion>
+	<horario>15:00 a 19:00</horario>
+	<telefono>000 000 000</telefono>
+	<clientes>
+	    <cliente>
+	        <nombre>Paco</nombre>
+            <apellido>XD</apellido>
+	        <metodo_pago>Efectivo</metodo_pago>
+	        <direccion_facturacion via="calle"> Nolose nº </direccion_facturacion>
+	        <direccion_envio via="paseo"> Nolose2 nº </direccion_envio>
+	        <productos_fav>
+	            <nombre_producto ref="008">HO HO Nelson</nombre_producto>
+                <nombre_producto ref="009">Goku</nombre_producto>
+                <nombre_producto ref="010">Naruto</nombre_producto>
+            </productos_fav>
+        </cliente>
+	    <cliente>
+            <nombre>Paco</nombre>
+            <apellido>XD2</apellido>
+	        <metodo_pago>Tarjeta</metodo_pago>
+	        <direccion_facturacion via="calle"> Nolose3 nº</direccion_facturacion>
+	        <direccion_envio via="avenida"> Nolose4 nº</direccion_envio>
+	        <productos_fav>
+	            <nombre_producto ref="011">HO HO Nelson 2.0</nombre_producto>
+                <nombre_producto ref="012">One piece</nombre_producto>
+                <nombre_producto ref="013">LOL</nombre_producto>
+            </productos_fav>
+        </cliente>
+    </clientes>
+    <stock_tienda>
+        <camisetas_manga_corta>
+            <camiseta_manga_corta>
+	            <tematica>Anime</tematica>
+		        <titulo lang="en">DBZ</titulo>
+                <codi id="006"></codi>
+		        <talla_disponible>
+		            <S>20</S>
+                    <M>30</M>
+                    <L>40</L>
+                    <XL>16</XL>
+                </talla_disponible>
+		        <img url="url/ejemplo.jpg"/>
+                <color>naranja</color>
+			    <material>algodón</material>
+			    <price>20.00</price>
+ 		    </camiseta_manga_corta>
+            <camiseta_manga_corta>
+                <tematica>Futbol</tematica>
+                <titulo lang="ca">FCB</titulo>
+                <codi id="007"></codi>
+                <talla_disponible>
+                    <S>88</S>
+                    <M>11</M>
+                    <L>42</L>
+                    <XL>26</XL>
+                </talla_disponible>
+                <img url="url/ejemplo.jpg"/>
+                <color>blaugrana</color>
+                <material>algodón</material>
+                <price>120.00</price>
+            </camiseta_manga_corta>
+        </camisetas_manga_corta>
+        <camisetas_manga_larga>
+            <camiseta_manga_larga>
+                <tematica>navidad</tematica>
+                <titulo lang="en">HO HO Nelson</titulo>
+                <codi id="008"></codi>
+                <!-- Todas las tallas disponibles de la tienda-->
+                <talla_disponible>
+                    <S>20</S>
+                    <M>30</M>
+                    <L>34</L>
+                    <XL>16</XL>
+                </talla_disponible>
+                <material>algodón</material>
+                <img url="url/ejemplo.jpg"/>
+                <color>blaugrana</color>
+                <price>300.00</price>
+            </camiseta_manga_larga>
+        </camisetas_manga_larga>
+        <sudaderas>
+            <sudadera>
+                <tematica>anime</tematica>
+                <titulo lang="en">One Piece</titulo>
+                <codi id="009"></codi>
+                <!-- Todas las tallas disponibles de la tienda-->
+                <talla_disponible>
+                    <S>22</S>
+                    <M>34</M>
+                    <L>65</L>
+                    <XL>19</XL>
+                </talla_disponible>
+                <material>algodón</material>
+                <img url="url/ejemplo.jpg"/>
+                <color>rojo</color>
+                <price>3002.00</price>  
+            </sudadera>
+        </sudaderas>	
+    </stock_tienda>
+</tienda_camisetas>
