@@ -1,0 +1,87 @@
+{
+    "pokemons": {
+        "pokemon1": {
+            "id": "0001",
+            "nom": "Snorlax",
+            "tipus": [
+                "Normal"
+            ],
+            "pes": 460,
+            "altura": "2,1m",
+            "estadistiques": {
+                "velocitat": 2,
+                "fortalesa": 5,
+                "Precisio": 3,
+                "Resistencia": 5
+            },
+            "moviments": {
+                "1": {
+                    "nom": "Sebo",
+                    "desc": "Los movimientos de tipo hielo y tipo fuego solo le producirán la mitad del daño normal a un Pokémon con esta habilidad.",
+                    "potencia": null,
+                    "contacte": false
+                },
+                "2": {
+                    "nom": "Inmunidad",
+                    "desc": "Impide que el Pokémon poseedor sea envenenado. Inmunidad impide que el Pokémon poseedor reciba daño por el veneno (hasta la cuarta generación), pero no será curado del veneno hasta entrar en combate.",
+                    "potencia": null,
+                    "contacte": false
+                },
+                "Ocult": {
+                    "nom": "Gula",
+                    "desc": "Gula hace que el Pokémon poseedor utilice las bayas equipadas que normalmente se consumen cuando queda un 25% o menos de sus PS máximos cuando le queden un 50% o menos de sus PS máximos.",
+                    "potencia": null,
+                    "contacte": false
+                }
+            },
+            "imatge": "https://www.wikidex.net/wiki/Archivo:Snorlax.png",
+            "evolucions": {
+                "evolucio1": {
+                    "nom": null,
+                    "nivell": null
+                }
+            }
+        },
+        "pokemon2": {
+            "id": "0002",
+            "nom": "Pikachu",
+            "tipus": [
+                "Eléctrico"
+            ],
+            "pes": 6.0,
+            "altura": "0,4m",
+            "estadistiques": {
+                "velocitat": 4,
+                "fortalesa": 4,
+                "Precisio": 4,
+                "Resistencia": 4,
+                "Salto": 4
+            },
+            "moviments": {
+                "1": {
+                    "nom": "Electricidad estática",
+                    "desc": "Todo Pokémon que golpee con un ataque de contacto a un Pokémon con esta habilidad tiene una probabilidad del 30% de resultar paralizado.",
+                    "potencia": null,
+                    "contacte": true
+                },
+                "Ocult": {
+                    "nom": "Pararrayos",
+                    "desc": "Pararrayos causa que todos los ataques eléctricos que afectan a un solo objetivo usados por los oponentes, se dirijan al Pokémon poseedor de esta habilidad independientemente del objetivo seleccionado.",
+                    "potencia": null,
+                    "contacte": false
+                }
+            },
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/7/77/Pikachu.png",
+            "evolucions": {
+                "evolucio1": {
+                    "nom": "Raichu",
+                    "nivell": 28
+                },
+                "evolucio2": {
+                    "nom": "Raichu de alola",
+                    "nivell": 28
+                }
+            }
+        }
+    }
+}

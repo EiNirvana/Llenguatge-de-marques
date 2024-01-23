@@ -1,0 +1,47 @@
+a.
+fun getUnitatMesuraAltura(pokemon) {
+    primerPokemon = pokemonList[0];
+    simbolAltura = altura.textCharAt(text.length()-1);
+    return simbolAltura;
+}
+
+b.
+fun isSegonMovimentDeContacte(pokemon) {
+    primerPokemon = pokemonList[0];
+    segonMoviment = primerPokemon["moviment"][1]["contacte"];
+    return segonMoviment;
+}
+
+c.
+fun getSumaEstadistiques(pokemon) {
+    segonPokemon = pokemonList[0];
+    sumaEstadistiques = segonPokemon["estadistiques"][(0)+(1)+(2)+(3)+(4)];
+    return sumaEstadistiques;
+}
+
+d.
+fun getMitjanaEstadistiques(pokemon) {
+    mitjanaEstadistiques = getSumaEstadistiques.sumaEstadistiques/5;
+    return mitjanaEstadistiques;
+}
+
+e.
+fun getPes(llista3Pokemon) {
+    primerPokemon = pokemonList[0];
+    pes1 = primerPokemon["pes"][3];
+    segonPokemon = pokemonList[1];
+    pes2 = segonPokemon["pes"][3];
+    totalPes = pes1 + pes2;
+    return totalPes;
+}
+
+f.
+fun isEvolucioPossible(pokemon) {
+    segonPokemon = pokemonList[1];
+    nivellEvolucio = segonPokemon["evolucions"]["evolucio1"]["nivell"];
+    if (nivellEvolucio >= nivellIntroduit) {
+        return true;
+    } else {
+        return false;
+    }
+}
